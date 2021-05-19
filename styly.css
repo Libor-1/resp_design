@@ -1,0 +1,15 @@
+#obal {
+   @media screen and(min-width: 600px) and (max-width: 800px);  
+}
+
+.jedna {
+  padding: 10px;
+  border: 2px solid red;
+  width: 80%;
+}
+
+.dva {
+  padding: 10px;
+  border: 2px solid black;
+  width: 80%;
+}
