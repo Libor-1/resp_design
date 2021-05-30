@@ -1,0 +1,158 @@
+/* CSS Document */
+/*hlavní bloky stránek */
+
+body {background-color:#342377;}
+
+#cely {
+  position:relative;
+  margin:auto;
+  padding:5%;
+  max-width: 1000px;
+  font-family:sans-serif;
+  color:#342377;
+  background-color:white;}
+
+#hlava {
+  position:relative;
+  width:100%;
+  margin: 0;
+  padding-bottom: 5%;
+  border-bottom:2px solid #342377;}
+
+  #clearblok{
+    clear:both;}
+    
+ 
+#sloupce{
+  position:relative; 
+  top:10%;
+  width:100%;
+  margin:0%;
+  padding:0%;
+  margin-top: 1%;
+  background-image:url("graficke_soubory/sloupce.gif");
+  background-repeat:repeat-y;
+  background-position:center center;
+  background-size: contain;
+}
+  
+#levy{
+  position:relative; 
+  width:20%;
+  margin:0%;
+  padding:5%;
+  float: left;
+  }
+
+#stred{
+  position:relative; 
+  right:10%;
+  width:50%;
+  margin:0%;
+  padding:5%;
+  font-size:10px;
+  float: left;
+}
+
+#pravy{
+  position:relative; 
+  width:7%;
+  margin-left:800%;
+  padding:10%;
+  color:white;
+  float: right;
+  font-size: 10px;
+}
+
+#clearblok{
+  clear:both;}
+
+  
+#pata{
+  position:relative;
+  top: 20%;
+  text-align:right;
+  font-size:10px;
+  width:100%;
+  margin:0% 0% 10% 0%;}
+  
+
+/*navigace*/  
+#levy ul {
+  position:relative;
+  padding:0%;
+  margin:0%;
+}
+#levy ul li {
+  list-style-type:none;
+}
+#levy ul li a {
+  color:white;
+  font-weight:bold;
+  font-size:10px;
+  text-decoration:none;
+}
+#levy ul li ul{
+  display:none;
+  position:absolute;
+  margin-left:70%;
+  top:20%;}
+#levy ul li:hover ul{
+  display:block;
+  margin-left: 15%;
+}
+
+/*zbylé nastavení vzhledu*/
+h1{text-align:center;
+  font-size:20px;
+  font-weight:bold;
+  padding:0%;
+  margin:0% 0% 10% 0%;
+  color:#342377;}
+h2{
+  text-align:center;
+  font-size: 17px;
+  font-weight:bold;
+  padding:0%;
+  margin:0% 0% 10% 0%;}
+
+#pravy a{
+  color:white;
+}
+#stred a{
+  color:#342377;
+}
+p {
+  text-indent:10%;
+  margin-top:10%;
+  text-align:justify;
+  font-size: 10px;
+}
+
+#leva_hlava {
+  float: left;
+  position: relative;
+}
+
+
+#leva_hlava img {
+  max-width: 100%;
+  height: auto;
+}
+
+#prava_hlava {
+  position: relative;
+  float: right;
+}
+
+@media screen and (max-width: 850px) {
+  #leva_hlava {
+      float: initial;
+      text-align: center;
+  }
+
+  #prava_hlava {
+      display: none;
+      visibility: hidden;
+  }
+}
